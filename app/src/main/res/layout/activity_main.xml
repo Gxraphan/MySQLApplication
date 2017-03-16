@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e6e655b"
+    tools:context="com.fanqfang.mysqlapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        style="@style/main_style"
+        android:paddingTop="25sp"
+        android:paddingBottom="25sp"
+        android:background="#251906"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BOOK List" />
+
+    <ListView
+        android:id="@+id/TodoListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitle">
+
+    </ListView>
+</RelativeLayout>
